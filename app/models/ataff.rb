@@ -1,0 +1,2 @@
+class Ataff < ApplicationRecord
+end

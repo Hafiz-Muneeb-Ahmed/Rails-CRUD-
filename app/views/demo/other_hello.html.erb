@@ -1,0 +1,13 @@
+<h1>This is Hello page for Instance Variable</h1>
+
+<% @num_array.each do |n| %>
+  <%= n %>
+  <%# p n %>
+<% end %>
+
+<a href="https://google.com" target="_blank">Google Search</a>
+<br>
+<%= link_to 'this is ruby link  ',controller: 'demo',action: 'index',page: 5, id:23 %>
+<h5>This is to check the Scope of Instance Variable</h5>
+<%p 'hajsdh' %>
+<% p @num_array %>

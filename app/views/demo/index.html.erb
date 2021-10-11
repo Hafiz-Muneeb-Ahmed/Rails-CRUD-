@@ -1,0 +1,13 @@
+<h1>Demo#index </h1>
+<p>Find me in app/views/demo/index.html.erb</p>
+<%= 'id is : '"#{ params[:id]}" %><br>
+<%= 'ID using Controller Params: '"#{@id}" %><br>
+<%= 'Page Number using Controller Params: '"#{@page+2}" %><br>
+<% @s1=Student.new %>
+<%@s1.course=" Object Oriented Programming" %>
+<%@s1.save %>
+<% @a1.each do |a|%>
+  <%= a.name %><br>
+<% end %>
+<br>
+<%#="Name in Admin table is : #{@a1[2].name}"%>
